@@ -1,0 +1,106 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:rgb(36, 13, 13);
+    display: flex;
+    height: 70px;
+    /* border: 3px solid red; */
+}
+nav #logo{
+    color: aqua;
+    margin-left: 4%;
+    margin-top: 1%;
+    font-size: 28px;
+}
+nav #logo span{
+    color: white;
+}
+nav #options{
+    margin-left: 22%;
+    margin-top: 1.5%;
+}
+nav #options ul{
+    display: flex;
+    text-align: center;
+}
+nav #options ul li{
+    margin-left: 25px;
+    color: white;
+    font-size: 17px;
+}
+nav #btn{
+    margin-left: 25%;
+    margin-top: 1%;
+}
+nav #btn button{
+    color: aqua;
+    font-size: 17px;
+    background-color: rgb(36, 13, 13);
+    padding: 5px;
+    border-radius: 25px;
+    
+}
+nav #btn button:hover{
+    color: black;
+    font-size: 17px;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 25px;
+}
+nav #options ul li:hover{
+    margin-left: 25px;
+    color: aqua;
+    font-size: 17px;
+    opacity: 0.8;
+}
+#container #slogan{
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 70px;
+    width: 1200px;
+    /* border: 2px solid purple; */
+    background-color:rgb(227, 217, 204);
+    border-radius: 10px;
+    padding-top: 1px;
+}
+#container #slogan h4{
+    color: blue;
+    margin-top: 1%;
+    margin-left: 1.5%;
+    letter-spacing: .5px;
+    font-size: 20px;
+}
+#container #slogan p{
+    font-family: sans-serif;
+    margin-left: 1.5%;
+    font-size: 13px;
+}
+#container #images{
+    margin-left: 7%;
+    margin-top: 2%;
+    height: 70px;
+    width: 1200px;
+    display: flex;
+}
+#container #images .img img{
+    height: 250px;
+    width: 365px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+#container #images2{
+    margin-left: 7%;
+    margin-top: 13%;
+    height: 70px;
+    width: 1200px;
+    display: flex;
+}
+#container #images2 .img img{
+    height: 250px;
+    width: 365px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
